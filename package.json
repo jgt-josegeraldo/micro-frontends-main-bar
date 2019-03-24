@@ -1,6 +1,6 @@
 {
   "name": "main-bar",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "build:esm": "gulp inline-templates"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^6.0.3",
     "@angular/cdk": "~7.3.4",
@@ -54,5 +54,21 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "typescript": "~2.7.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgt-josegeraldo/micro-frontends-main-bar.git"
+  },
+  "keywords": [
+    "micro",
+    "frontends"
+  ],
+  "author": "José Geraldo da Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgt-josegeraldo/micro-frontends-main-bar/issues"
+  },
+  "homepage": "https://github.com/jgt-josegeraldo/micro-frontends-main-bar#readme"
 }
